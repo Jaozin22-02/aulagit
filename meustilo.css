@@ -1,0 +1,11 @@
+/*seletor de elemento*/
+body{
+    background-color: rgb(36, 70, 59);
+}
+div{
+    /*border: 10px ;
+    border-style: dotted;*/
+    border-bottom: 1px solid;
+    margin: 3%;
+
+}
