@@ -1,6 +1,7 @@
 /*seletor de elemento*/
 body{
-    background-color: rgb(36, 70, 59);
+    background-image: url(./backgroundImg.jpg);
+    
 }
 div{
     /*border: 10px ;
@@ -8,4 +9,20 @@ div{
     border-bottom: 1px solid;
     margin: 3%;
 
+}
+.menu{
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 1.3em;
+    color: whitesmoke;
+    padding: 1em;
+    border-radius: 0.5em;
+
+}
+.menu a{
+    color: turquoise;
+    transition: 1s;
+}
+.menu a :hover {
+    color: white;
+    text-shadow: 0 0 8px white;
 }
